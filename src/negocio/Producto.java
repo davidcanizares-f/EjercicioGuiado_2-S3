@@ -8,7 +8,7 @@ public class Producto {
 
     public void setNombre(String nombre){
         if(nombre == null || nombre.isBlank()){
-            nombre= "[!] Nombre Vacío (llenar)";
+            nombre= "s/n";
         }
         this.nombre = nombre;
     }
@@ -29,7 +29,7 @@ public class Producto {
 
     public void setCategoria(String categoria){
         if(categoria==null || categoria.isBlank()){
-            categoria = "[!] Categoría Vacía (llenar)";
+            categoria = "s/n";
         }
         this.categoria=categoria;
     }
