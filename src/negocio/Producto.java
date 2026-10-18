@@ -50,6 +50,7 @@ public class Producto {
     }
 
 
+
     /*public void mostrarInformacion(){
         System.out.println("Nombre: " + nombre);
         System.out.println("Precio: $ " + precio);
